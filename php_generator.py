@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
 import os
 
-extensions = ['.php', '.pht', '.phtm', '.phtml', '.phar', '.phpt', '.pgif', '.phps', '.phtml', '.php2', '.php3', '.php4', '.php5', '.php6', '.php7', '.php16', '.inc']
-
 def main():
-    f = open('intruder_php_backdoor_wordlist.txt', 'r')
-    for i, line in enumerate(f):
-        for ext in extensions:
-            line = line.replace(ext, '')
+    for i, line in enumerate(open('intruder_php_backdoor_wordlist.txt', 'r')):
+        for ext in open('extensions_list.txt', 'r'):
+            ext = ext.strip()
             p = open(f'shell/shell_{i}{ext}', 'w')
             p.write(line)
+            print(f'[*] Generated shell_{i}{ext} to shell directory.')
 
 if __name__ == '__main__':
     main()

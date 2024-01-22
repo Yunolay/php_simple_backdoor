@@ -1,0 +1,17 @@
+.php
+.pht
+.phtm
+.phtml
+.phar
+.phpt
+.pgif
+.phps
+.phtml
+.php2
+.php3
+.php4
+.php5
+.php6
+.php7
+.php16
+.inc

